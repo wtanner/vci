@@ -55,3 +55,5 @@ Using these parameters, I obtain a prediction accuracy of 99.8%. I used libsvm d
 3. SciPy (tested on 0.12.1)
 4. Scikit-learn (tested on 0.14)
 5. 3GPP AMR reference implementation (TS 26.073 Rel-11), available at http://www.3gpp.org/ftp/Specs/archive/26_series/26.073/26073-b00.zip
+
+The 3GPP AMR binaries, once built, should be moved to "vci/encoder" and "vci/decoder". I have successfully built these on OSX, OpenBSD (5.5), and Linux (Fedora 20).
